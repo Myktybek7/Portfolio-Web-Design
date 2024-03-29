@@ -118,6 +118,22 @@ th, a{
         text-align: center; 
     }
 }
+@media screen and (max-width: 768px) {
+    .homepagecontainer {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .welcometext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainphoto {
+        width: 100%;
+        max-width: 300px; 
+        margin-top: 20px;
+    }
+}
 .about-now{
     color: blue;
 }
