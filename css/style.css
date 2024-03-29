@@ -1,0 +1,187 @@
+html{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgb(0, 153, 255), black);
+}
+body{
+    background-color: rgb(14, 31, 43);
+    width: 1500px;
+    height: 800px;
+    display: block;
+    margin: 70px auto;
+    border-radius: 30px;
+}
+.name
+{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 60px;
+}
+.home{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    text-align: right;
+    padding-left: 580px;
+}
+.about{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.contact{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    text-align: right;
+}
+.gallery{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    text-align: right;
+}
+.works{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.resume{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.menulist {
+    border-collapse: separate;
+    border-spacing: 55px;
+}
+.intro{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 350px;
+    padding-top: 150px;
+}
+.description{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 355px;
+}
+.description2{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    padding-left: 355px;
+}
+th:hover, a:hover{
+    color: rgb(0, 153, 255);
+}
+th, a{
+    color: aliceblue;
+}
+.homepagecontainer{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.name, .menulist{
+    display: inline-block;
+    vertical-align: middle;
+}
+.mainphoto{
+    padding-top: 100px;
+    padding-left: 60px;
+    width: 40%;
+    height: 40%;
+    border-radius: 60%; 
+}
+@media (max-width: 768px) {
+    body {
+        margin: 20px auto; 
+    }
+    .homepagecontainer, .name, .menulist {
+        display: block; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+    .mainphoto {
+        padding-top: 20%; 
+        padding-left: 0; 
+    }
+    .name {
+        padding-left: 0; 
+    }
+    .intro, .description, .description2 {
+        padding-left: 0; 
+        text-align: center; 
+    }
+}
+.about-now{
+    color: blue;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+.descrip{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+.aboutMe{
+    color: rgb(255, 255, 255);
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+}
+.aboutPhoto{
+    width: 300px;
+    border-radius: 10%;
+    position: relative;
+    right: auto;
+    left: 250px;
+    bottom: 280px;
+}
+.resumePhoto{
+    width: 1000px;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+}
+ul{
+    margin-left: 100px;
+}
+.NY{
+    width: 250px;
+    margin-left: 60px;
+    border-radius: 10%;
+}
+.ortotokoi{
+    width: 250px;
+    margin-left: 120px;
+    border-radius: 10%;
+}
+.horse{
+    width: 250px;
+    margin-left: 120px;
+    margin-top: 80px;
+    border-radius: 10%;
+}
+.kanion{
+    width: 250px;
+    margin-left: 180px;
+    border-radius: 10%;
+}
+.social{
+    margin-left: 100px;
+    position: relative;
+    top: 80px;
+}
